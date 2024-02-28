@@ -1,0 +1,190 @@
+/**
+ant-design公共样式
+ */
+.tag-table {
+  min-width: 1200px;
+}
+.tag-table .ant-table {
+  max-height: 700px;
+}
+.tag-table .ant-table table {
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+.tag-table .ant-table table .ant-table-thead {
+  border-spacing: 0;
+}
+.tag-table .ant-table table th,
+.tag-table .ant-table table td {
+  text-align: center;
+}
+.tag-table .ant-table table th a,
+.tag-table .ant-table table td a {
+  margin: 0 5px;
+}
+.tag-table .ant-table-thead > tr {
+  box-shadow: 0px 1px 3px 0px #f1f2f5;
+}
+.tag-table .ant-table-thead > tr th {
+  background: #fff;
+  height: 40px;
+  padding: 0 16px;
+  line-height: 40px;
+  color: #5f8ac9;
+  font-size: 14px;
+  font-weight: bold;
+}
+.tag-table .ant-table-tbody > tr {
+  box-shadow: 0px 1px 3px 0px #f1f2f5;
+}
+.tag-table .ant-table-tbody > tr td {
+  border-bottom: 0;
+  background: #fff;
+}
+.tag-table .ant-table-selection-column {
+  border-spacing: 0;
+}
+.tag-table .ant-table-thead > tr.ant-table-row-hover:not(.ant-table-expanded-row) > td,
+.tag-table .ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row) > td,
+.tag-table .ant-table-thead > tr:hover:not(.ant-table-expanded-row) > td,
+.tag-table .ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td {
+  background: #fff;
+}
+.ant-drawer {
+  margin-top: 68px;
+}
+.ant-drawer .confirm-button {
+  width: 120px;
+  height: 32px;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 15px;
+}
+.ant-drawer-right .ant-drawer-content-wrapper {
+  right: 0px;
+  box-shadow: none !important;
+}
+.ant-drawer-header {
+  background: transparent;
+  border: none;
+  padding: 16px 15px;
+  color: #6b747a;
+  position: relative;
+}
+.ant-drawer-header::before {
+  content: '';
+  width: 4px;
+  height: 16px;
+  background: #3783f8;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ant-drawer-wrapper-body {
+  background: #f8fafc;
+  position: relative;
+}
+.ant-drawer-wrapper-body .ant-drawer-body {
+  height: calc(100% - 114px);
+  position: relative;
+}
+@media screen and (max-width: 1200px) {
+  .ant-drawer-right .ant-drawer-content-wrapper {
+    right: 0px;
+  }
+}
+.container {
+  margin-top: 16px;
+  padding: 24px 30px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 8px;
+  position: relative;
+  min-width: 1200px;
+  text-align: left;
+}
+.container .add-title {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #5f8ac9;
+  position: relative;
+  margin-bottom: 25px;
+}
+.container .add-title .title-icon {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: 6px solid;
+  border-color: transparent transparent transparent #5f8ac9;
+}
+.container .ant-input {
+  background: #F7F9FA !important;
+}
+.container .ant-input:focus {
+  background: #ffffff !important;
+}
+.container .ant-select-selection--single {
+  background: #F7F9FA !important;
+}
+.modal-button {
+  text-align: left;
+  padding: 32px 0 24px 100px;
+}
+.modal-button #cancelButton {
+  margin-right: 31px;
+  background: #dadee3;
+  color: #6b747a;
+  border: none;
+}
+.modal-button .ant-btn {
+  width: 120px;
+  height: 32px;
+  font-size: 14px;
+}
+.button-area {
+  text-align: left;
+  padding-bottom: 3px;
+}
+.button-area .ant-btn {
+  margin-right: 15px;
+}
+.common-modal .ant-modal-header {
+  background: #F2F3F7;
+  padding: 12px 24px;
+}
+.common-modal .ant-modal-header .ant-modal-title {
+  font-size: 14px;
+  font-weight: bolder;
+}
+.common-modal .ant-input {
+  background: #f7f9fa;
+}
+.common-modal .ant-modal-footer {
+  text-align: center;
+  border: none;
+}
+.common-modal .ant-modal-footer {
+  padding-bottom: 15px;
+}
+.common-modal .ant-modal-footer button {
+  width: 120px;
+  height: 32px;
+  font-size: 14px;
+  border-radius: 16px;
+}
+.common-modal .ant-modal-footer button:nth-child(1) {
+  margin-right: 31px;
+  background: #dadee3;
+  color: #6b747a;
+  border: none;
+}
+.ant-checkbox-group-item {
+  width: 120px;
+}
+.check-box-area {
+  padding: 0 48px;
+}
+/*# sourceMappingURL=antd.css.map */
