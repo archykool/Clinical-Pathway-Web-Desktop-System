@@ -1,2 +1,24 @@
-# Clinical-Pathway-Web-Desktop-System
-This project is a comprehensive Clinical Pathway Web-Desktop System developed using Vue.js, PHP, MySQL, Apache, and Node.js. The primary goal of this system is to streamline and optimize clinical pathway management in healthcare institutions, ultimately improving patient care, resource allocation, and overall operational efficiency.
+# illness-front
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
